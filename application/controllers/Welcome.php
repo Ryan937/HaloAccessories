@@ -21,6 +21,7 @@ class Welcome extends Application
 	{
     // Build the menubar
 		$this->data['menubar'] = $this->parser->parse('_menubar', $this->config->item('menu_choices'), true);
+		$this->data['pagetitle'] = 'Halo Accessorizor';
 		$this->data['pagebody'] = 'HomePage';
 		$this->render(); 
 	}

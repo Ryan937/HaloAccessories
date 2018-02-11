@@ -19,6 +19,8 @@ class Catalogue extends Application
      */
     public function index()
     {
+        // build navbar
+        $this->data['menubar'] = $this->parser->parse('_menubar', $this->config->item('menu_choices'), true);
         $this->data['pagetitle'] = "Catalogue";
         $this->data['pagebody'] = 'CataloguePage';
         $this->render();

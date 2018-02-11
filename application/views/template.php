@@ -36,7 +36,7 @@ if (!defined('APPPATH'))
                 {content}
             </div>
             <div id="footer" class="span12">
-                Copyright &copy; 2015-2017,  <a href="mailto:someone@somewhere.com">Me</a>.
+                Copyright &copy; 2015-2017,  <a href="mailto:iceberg@bcit.ca">Team Iceberg</a>.
             </div>
         </div>
         <script src="/assets/js/jquery-1.11.1.min.js"></script>

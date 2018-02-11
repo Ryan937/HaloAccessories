@@ -1,13 +1,18 @@
 function edit() {
-
-var charImg = document.getElementById('charImg');
-var set = document.getElementById('sets');
-
-	if (set.value == "Default") {
-		charImg.src = "./images/default.png";
-	} else if (set.value == "Preset 1") {
-		charImg.src = "./images/preset1.png";
-	} else if (set.value == "Preset 2") {
-		charImg.src = "./images/preset2.png";
-	}
+    var charImg = document.getElementById('charImg');
+    var set = document.getElementById('sets');
+    var setNum = set.options[set.selectedIndex].value;
+    var path = "";
+    switch (setNum) {
+        case "0":
+            path = "/assets/images/default.png";
+            break;
+        case "1":
+            path = "/assets/images/preset1.png";
+            break;
+        case "2":
+            path = "/assets/images/preset2.png";
+            break;
+    }
+    charImg.src = path;
 }
