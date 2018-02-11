@@ -5,7 +5,7 @@ function edit() {
     var path = "";
     switch (setNum) {
         case "0":
-            path = "/assets/images/default.png";
+            path = "/assets/images/Default.png";
             break;
         case "1":
             path = "/assets/images/preset1.png";
