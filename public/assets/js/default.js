@@ -1,6 +1,8 @@
 function edit() {
+
 var charImg = document.getElementById('charImg');
 var set = document.getElementById('sets');
+
 	if (set.value == "Default") {
 		charImg.src = "./images/default.png";
 	} else if (set.value == "Preset 1") {
