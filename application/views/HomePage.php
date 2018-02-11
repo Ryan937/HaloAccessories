@@ -1,9 +1,9 @@
 	<div style="text-align:center;">
 	<h1>Choose A Preset</h1>
 	<select onchange="edit();" id="sets">
-		<option onClick="edit();" id="0">Default</option>
-		<option onClick="edit();" id="1">Preset 1</option>
-		<option onClick="edit();" id="2">Preset 2</option>
+		<option onClick="edit();" value="0">Recruit</option>
+		<option onClick="edit();" value="1">Commando</option>
+		<option onClick="edit();" value="2">ODST</option>
 	<select>
 		<br/>
 		<br/>
