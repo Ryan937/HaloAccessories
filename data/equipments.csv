@@ -1,4 +1,4 @@
-code (PK),description,category (FK),protection,speed,weight
+id,description,category,protection,speed,weight
 101,tier 1,helmet,120,-20,120
 102,tier 1,chest,200,-50,200
 103,tier 1,shoulder_left,50,-10,50

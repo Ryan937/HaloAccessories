@@ -20,6 +20,15 @@
             <p style="text-align: center;">Tier 4</p>
         </td>
     </tr>
+
+    {subset}
+        <h3>
+            weight: {weight}
+            speed: {speed}
+            protection: {protection}
+        </h3>
+    {/subset}
+
     <tr>
         <td>
             <h2>Shoulder Pads :</h2>
