@@ -3,93 +3,45 @@
         <td>
             <h2>Helmets :</h2>
         </td>
+        {subset}
         <td>
-            <img src="/assets/images/Helmet_Tier1.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 1</p>
+            <img src="/assets/images/{category}_{description}.PNG" title="protection: {protection}&#013;speed: {speed}&#013;weight: {weight}&#013;" style="padding: 30px;"/>
+            <p style="text-align: center;">{description}</p>
         </td>
-        <td>
-            <img src="/assets/images/Helmet_Tier2.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 2</p>
-        </td>
-        <td>
-            <img src="/assets/images/Helmet_Tier3.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 3</p>
-        </td>
-        <td>
-            <img src="/assets/images/Helmet_Tier4.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 4</p>
-        </td>
+        {/subset}
     </tr>
-
-    {subset}
-        <h3>
-            weight: {weight}
-            speed: {speed}
-            protection: {protection}
-        </h3>
-    {/subset}
 
     <tr>
         <td>
             <h2>Shoulder Pads :</h2>
         </td>
+        {subset2}
         <td>
-            <img src="/assets/images/Shoulder_Tier1.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 1</p>
+            <img src="/assets/images/Shoulder_{description}.PNG" title="protection: {protection}&#013;speed: {speed}&#013;weight: {weight}&#013;" style="padding: 30px;"/>
+            <p style="text-align: center;">{description}</p>
         </td>
-        <td>
-            <img src="/assets/images/Shoulder_Tier2.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 2</p>
-        </td>
-        <td>
-            <img src="/assets/images/Shoulder_Tier3.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 3</p>
-        </td>
-        <td>
-            <img src="/assets/images/Shoulder_Tier4.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 4</p>
-        </td>
+        {/subset2}
     </tr>
     <tr>
         <td>
             <h2>Chest :</h2>
         </td>
+        {subset3}
         <td>
-            <img src="/assets/images/Chest_Tier1.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 1</p>
+            <img src="/assets/images/{category}_{description}.PNG" title="protection: {protection}&#013;speed: {speed}&#013;weight: {weight}&#013;" style="padding: 30px;"/>
+            <p style="text-align: center;">{description}</p>
         </td>
-        <td>
-            <img src="/assets/images/Chest_Tier2.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 2</p>
-        </td>
-        <td>
-            <img src="/assets/images/Chest_Tier3.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 3</p>
-        </td>
-        <td>
-            <img src="/assets/images/Chest_Tier4.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 4</p>
-        </td>
+        {/subset3}
     </tr>
     <tr>
         <td>
             <h2>Wrist Guard :</h2>
         </td>
+        {subset4}
         <td>
-            <img src="/assets/images/Wrist_Tier1.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 1</p>
+            <img src="/assets/images/{category}_{description}.PNG" title="protection: {protection}&#013;speed: {speed}&#013;weight: {weight}&#013;" style="padding: 30px;"/>
+            <p style="text-align: center;">{description}</p>
         </td>
-        <td>
-            <img src="/assets/images/Wrist_Tier2.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 2</p>
-        </td>
-        <td>
-            <img src="/assets/images/Wrist_Tier3.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 3</p>
-        </td>
-        <td>
-            <img src="/assets/images/Wrist_Tier4.PNG" style="padding: 30px;"/>
-            <p style="text-align: center;">Tier 4</p>
-        </td>
+        {/subset4}
     </tr>
 </table>
