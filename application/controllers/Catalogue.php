@@ -23,6 +23,13 @@ class Catalogue extends Application
         $this->data['menubar'] = $this->parser->parse('_menubar', $this->config->item('menu_choices'), true);
         $this->data['pagetitle'] = "Catalogue";
         $this->data['pagebody'] = 'CataloguePage';
+        
+        $this->load->model('Inventory');
+        //$all_the_items = $this->Inventory->all();
+
+        // get all of the entrees
+        //$subset = $this->Inventory->where('category','entree');
+        
         $this->render();
     }
 

@@ -4,7 +4,7 @@
             <h2>Helmets :</h2>
         </td>
         <td>
-            <img src="/assets/images/Helmet_Tier1.PNG" style="padding: 30px;"/>
+            <img src="/assets/images/Helmet_Tier1.PNG" title="Weight:{weight}" style="padding: 30px;"/>
             <p style="text-align: center;">Tier 1</p>
         </td>
         <td>
