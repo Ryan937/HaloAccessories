@@ -19,6 +19,8 @@ class Welcome extends Application
 	 */
 	public function index()
 	{
+                // Build the menubar
+		$this->data['menubar'] = $this->parser->parse('_menubar', $this->config->item('menu_choices'), true);
 		$this->data['pagebody'] = 'welcome_message';
 		$this->render(); 
 	}
