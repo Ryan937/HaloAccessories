@@ -26,7 +26,13 @@ class Catalogue extends Application
         $this->load->model('inventory');
         $all_the_items = $this->inventory->all();
         $subset = $this->inventory->some('category','helmet');
+        $subset2 = $this->inventory->some('category','shoulder_left');
+        $subset3 = $this->inventory->some('category','chest');
+        $subset4 = $this->inventory->some('category','wrist');
         $this->data['subset'] = $subset;
+        $this->data['subset2'] = $subset2;
+        $this->data['subset3'] = $subset3;
+        $this->data['subset4'] = $subset4;
         $this->render();
     }
 
