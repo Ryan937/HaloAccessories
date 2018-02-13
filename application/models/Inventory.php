@@ -8,6 +8,6 @@
 
 class Inventory extends CSV_Model {
     function __construct() {
-        parent::__construct('../data/menuitems.csv','id');
+        parent::__construct('../data/equipments.csv','id');
     }
 }
