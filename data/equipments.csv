@@ -1,0 +1,21 @@
+﻿code (PK),description,category (FK),protection,speed,weight
+101,tier 1,helmet,120,-20,120
+102,tier 1,chest,200,-50,200
+103,tier 1,shoulder_left,50,-10,50
+104,tier 1,shoulder_right,50,-10,50
+105,tier 1,wrist,10,0,20
+201,tier 2,helmet,220,-30,150
+202,tier 2,chest,400,-70,250
+203,tier 2,shoulder_left,100,-15,75
+204,tier 2,shoulder_right,100,-15,75
+205,tier 2,wrist,20,0,20
+301,tier 3,helmet,300,-35,150
+302,tier 3,chest,450,-80,250
+303,tier 3,shoulder_left,120,-15,75
+304,tier 3,shoulder_right,120,-15,75
+305,tier 3,wrist,30,0,20
+401,tier 4,helmet,400,-50,175
+402,tier 4,chest,500,-100,300
+403,tier 4,shoulder_left,200,-20,80
+404,tier 4,shoulder_right,200,-20,80
+405,tier 4,wrist,50,0,20
