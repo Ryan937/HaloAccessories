@@ -6,6 +6,8 @@ class Equipment extends CSV_Model
     public $equipmentId;
     // Equipment description
     public $equipmentDesc;
+    // Equipment Image path
+    public $equipmentImage;
     // Equipment protection
     public $protection;
     // Equipment speed
